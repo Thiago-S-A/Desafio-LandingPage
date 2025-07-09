@@ -1,0 +1,164 @@
+*{
+   font-family: inter;
+   margin: 0px;
+}
+
+body{
+   overflow-x: hidden;
+}
+
+#menu-superior{
+   background-color: #303030;
+   padding: 190px;
+   color: aliceblue;
+}
+
+#titulo-superior{
+   font-size: 60px;   
+}
+
+#info-superior{
+   font-size: 20px;
+}
+
+.sup{
+   margin-left: -100px;
+}
+
+
+
+#menu-info{
+   background-color: #f9f9f9;
+   display: grid;
+   grid-auto-flow: column;
+   columns: auto;
+   padding-bottom: 80px;     
+}
+
+.n{
+
+   margin: 54px 0px 0px 200px;
+   display: flex;
+   align-items: center;
+   font-size: 35px;
+}
+
+#quantidade{
+   display: flex;
+   align-items: end;
+   margin-bottom: -20px;
+   margin-left: -85px;
+   position: relative;
+   right: 55px;
+}
+
+#anos{
+   display: flex;
+   align-items: end;
+   margin-bottom: -20px;
+   margin-right: -20px;
+   position: relative;
+   right: 120px;
+}
+
+#metros{
+   display: flex;
+   align-items: end;
+   margin-bottom: -20px;
+   margin-right: -15px;
+   position: relative;
+   right: 257px;
+}
+
+
+
+#texto-imagem{
+   display: grid;
+   grid-auto-flow: column;
+   columns: auto;    
+   padding-bottom: 390px;
+   margin-top: 100px;
+
+}
+
+#titulo-da-imagem{
+   display: flex;
+   align-items: center;
+   margin-left: 110px;
+   margin-top: 290px;
+   font-size: 50px;
+}
+
+#texto-da-imagem{
+   margin-left: 110px;
+   font-size: 29px;   
+}  
+
+#foto{
+   margin-top: 38px;
+   margin-right: -100px;
+   height: 125%;
+}
+
+
+
+#formulario{
+   background-color: #303030;
+   text-align: center;
+   padding: 100px;
+
+}
+
+#titulo-do-formulario{
+   text-align: center;
+   color: aliceblue;  
+   padding: 90px;  
+   margin: -70px; 
+   font-size: 30px;
+   margin-top: -100px;
+}
+
+input{
+   font-family: Raleway;
+   font-size: 20px;
+   font-weight: 400;
+   width: 420px;
+   height: 60px;
+   margin: 20px;
+   border: 0px;
+   border-radius: 10px;
+   padding-left: 20px;
+   font-weight: bolder;
+   
+}
+
+button{
+   font-family: Raleway;
+   background-color: #c07212;
+   color: #ffffff;
+   font-size: 24px;
+   width: 230px;
+   height: 65px;
+   margin: 30px;
+   border: 0px;
+   border-radius: 10px;
+   font-weight: bolder;
+   cursor: pointer;
+}
+
+button:hover{
+   background-color: #e0a052;
+   box-shadow: 0px 15px 20px #8055208e;
+   transform:translateY(-3px);
+   transition-duration: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
